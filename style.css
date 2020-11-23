@@ -1,0 +1,75 @@
+body {
+    margin:0;
+}
+
+header {
+    border: 3px solid;
+    border-color: yellow;
+    height:700px;
+    width:99%;
+    background-image : url(images/BackgroundImage.png);
+    background-size: cover;
+    
+
+    
+}
+
+nav {
+    border: 3px solid;
+    border-color: yellow;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding: 5px;
+    margin: 0 auto;
+    margin-left: -300px;
+    width: 50%;
+
+
+}
+
+.welcome {
+    text-align: center;
+    font-style: italic;
+    color:white;
+    vertical-align: bottom;
+}
+
+.nice {
+    text-align: center; 
+    font-size: 60px;
+    text-transform: uppercase;
+    color:white;
+   
+}
+
+.more-info {
+    border: 1px solid;
+    border-color: yellow;
+    background-color:#fed136;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0% 45%;
+    position: absolute;
+}
+
+.logo{
+    font-size: 15px;
+    color: #fed136;
+    font-style: italic;
+}
+
+.head {
+    margin-top: 20%;
+}
+
+.services{
+background-color: #ffffff;
+width: 1440px;
+height: 500px;
+}
