@@ -3,10 +3,10 @@ body {
 }
 
 header {
-    border: 3px solid;
+    
     border-color: yellow;
     height:700px;
-    width:99%;
+    width:1520px;
     background-image : url(images/BackgroundImage.png);
     background-size: cover;
     
@@ -15,7 +15,7 @@ header {
 }
 
 nav {
-    border: 3px solid;
+    
     border-color: yellow;
     position: absolute;
     right: 0;
@@ -32,7 +32,7 @@ nav {
 .welcome {
     text-align: center;
     font-style: italic;
-    color:white;
+    color:#fff;
     vertical-align: bottom;
 }
 
@@ -40,7 +40,7 @@ nav {
     text-align: center; 
     font-size: 60px;
     text-transform: uppercase;
-    color:white;
+    color:#fff;
    
 }
 
@@ -50,11 +50,11 @@ nav {
     background-color:#fed136;
     font-size: 15px;
     text-align: center;
-    padding: 15px 40px;
+    padding: 10px  120px;
     border-radius: 2px;
     color: white;
     text-transform: uppercase;
-    margin: 0% 45%;
+    margin: 0px 650px;
     position: absolute;
 }
 
@@ -68,8 +68,67 @@ nav {
     margin-top: 20%;
 }
 
-.services{
-background-color: #ffffff;
-width: 1440px;
-height: 500px;
+.services {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.services-specs{
+    background-color: #ffffff;
+    width: 1520px;
+    height: 500px;
+}
+
+ul {
+    margin-left: 700px;
+    
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 150px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icon-basket {
+    background: url(images/IconBasket.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.icon-laptop {
+    background: url(images/IconLaptop.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.icon-locked {
+    background: url(images/IconLocked.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.ourPortfolio {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+
+.portfolio{
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+div p {
+    font-weight: 100;
+    font-style: italic;
 }
