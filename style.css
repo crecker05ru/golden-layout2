@@ -14,6 +14,11 @@ header {
     
 }
 
+.header-content {
+display: flex;
+justify-content: space-between;
+}
+
 nav {
     
     border-color: yellow;
@@ -21,14 +26,17 @@ nav {
     right: 0;
     text-transform: uppercase;
     color:#ffffff;
-    padding: 5px;
-    margin: 0 auto;
-    margin-left: -300px;
-    width: 50%;
+    padding: 50px;
+    padding-right: 230px;
+    
+    
 
 
 }
+nav a {
+padding: 20px;
 
+}
 .welcome {
     text-align: center;
     font-style: italic;
@@ -50,18 +58,21 @@ nav {
     background-color:#fed136;
     font-size: 15px;
     text-align: center;
-    padding: 10px  120px;
+    padding: 0px 100px 0px 100px;
     border-radius: 2px;
     color: white;
     text-transform: uppercase;
     margin: 0px 650px;
-    position: absolute;
+    
+    line-height: 25px;
 }
 
 .logo{
     font-size: 15px;
     color: #fed136;
     font-style: italic;
+    padding-top: 50px;
+    padding-left: 225px;
 }
 
 .head {
@@ -77,22 +88,27 @@ nav {
 
 .services-specs{
     background-color: #ffffff;
-    width: 1520px;
-    height: 500px;
-}
-
-ul {
-    margin-left: 700px;
+    width: 1400px;
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
     
-    padding: 0px;
 }
 
-li {
-    display: inline;
-    margin-right: 150px;
-    padding: 0px;
-    font-weight: bold;
-    font-size: 20px;
+.specs {
+    width: 325px;
+    height: 185px;
+}
+
+.specs-head{
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+}
+
+.specs-text{
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
 }
 
 .icon-basket {
@@ -100,6 +116,7 @@ li {
     background-size: cover;
     height: 100px;
     width: 100px;
+    margin-left: 120px;
 }
 
 .icon-laptop {
@@ -107,6 +124,7 @@ li {
     background-size: cover;
     height: 100px;
     width: 100px;
+    margin-left: 120px;
 }
 
 .icon-locked {
@@ -114,21 +132,71 @@ li {
     background-size: cover;
     height: 100px;
     width: 100px;
+    margin-left: 120px;
+}
+
+.portfolio{
+    background-color: #f7f7f7;
+    font-weight: bold;
+    width: 1400px;
+    height: 1200px;
 }
 
 .ourPortfolio {
     text-align: center;
     text-transform: uppercase;
     margin-top: 100px;
-    margin-bottom: 100px;
     padding-top: 100px;
+    
 }
 
-.portfolio{
-    background-color: #f7f7f7;
-    font-weight: bold;
+.portfolio-content{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;   
+    padding: 25px 170px 25px 170px;
 }
-div p {
+
+.portfolio-box{
+    max-width:400px ;
+    max-height: 350px;
+    padding: 35px 35px 35px 35px;
+}
+
+.ebony-ivory-icon {
+    background: url(images/ebonyandivory.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;
+}
+.portfolio-head{
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+.portfolio-text {
     font-weight: 100;
     font-style: italic;
+    text-align: center;
+}
+
+.potfolio-text-box{
+    width: 290px;
+    height: 90px;
+    background: #fff;
+}
+
+.smart-stationary-icon{
+    background: url(images/smartstationary.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;
+}
+
+.clever-poster-icon{
+    background: url(images/cleverposter.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px; 
 }
