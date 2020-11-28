@@ -8,10 +8,6 @@ header {
     height:700px;
     width:1520px;
     background-image : url(images/BackgroundImage.png);
-    background-size: cover;
-    
-
-    
 }
 
 .header-content {
@@ -58,12 +54,11 @@ padding: 20px;
     background-color:#fed136;
     font-size: 15px;
     text-align: center;
-    padding: 0px 100px 0px 100px;
+    padding: 20px 70px 20px 70px;
     border-radius: 2px;
     color: white;
     text-transform: uppercase;
-    margin: 0px 650px;
-    
+    margin-left: 650px;
     line-height: 25px;
 }
 
@@ -76,7 +71,7 @@ padding: 20px;
 }
 
 .head {
-    margin-top: 20%;
+    margin-top: 250px;
 }
 
 .services {
@@ -89,10 +84,14 @@ padding: 20px;
 .services-specs{
     background-color: #ffffff;
     width: 1400px;
-    height: 570px;
+    height: 200px;
+
+    
+}
+.services-specs-container{
     display: flex;
     justify-content: space-between;
-    
+    padding: 0px 200px 0px 200px;
 }
 
 .specs {
@@ -316,4 +315,215 @@ border-radius: 20px;
     height: 185px;
     border-radius: 20px;
     margin-left: 620px;
+}
+
+.our-amazing-team{
+    width: 1400px;
+    height: 820px;
+    background-color:#f9f9f9 ;
+}
+
+.our-amazing-team h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+
+.our-amazing-team p{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.our-amazing-team-content{
+    padding: 60px 200px 60px 200px;
+}
+
+.our-amazing-team-avatar1{
+    background: url(images/avatar-icon.png);
+    width: 235px;
+    height: 235px;
+    border-radius: 20px; 
+    margin-left: 80px;
+}
+.teammate-name{
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 60px;
+}
+.team-post{
+   font-weight: lighter; 
+   font-style: italic;
+   text-align: center;
+   margin-left: 60px;
+}
+.our-amazing-team-content{
+    display: flex;
+    justify-content: space-between;
+}
+.our-amazing-team-content-box{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.team-socials{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.team-twitter{
+    background: url(images/twitterlogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+
+.team-facebook{
+    background: url(images/facebooklogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.team-pinterest{
+    background: url(images/pinterestlogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.cms{
+    width: 1400px;
+    height: 165px;
+}
+.cms-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px 50px 200px;
+}
+.envato{
+    width: 161px;
+    height: 30px;
+    background: url(images/Envato.png);
+}
+.wordpress{
+    width: 186px;
+    height: 42px;
+    background: url(images/WordPress.png);
+}
+.aetuts{
+    width: 131px;
+    height: 41px;
+    background: url(images/aatuts.png);
+}
+.microlancer{
+    width: 167px;
+    height: 42px;
+    background: url(images/Microlancer.png);
+}
+.contact-us{
+    width: 1400px;
+    height: 680px;
+    background-color: #222222;
+    background: url(images/MapImage.png);
+}
+
+.contact-us h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-us p{
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+}
+.contact-us-container{
+    width: 940px;
+    height: 200px;
+    padding: 70px 200px 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-us-input{
+    width: 450px;
+    height: 210px;
+}
+.contact-us-input input{
+    width: 455px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.contact-us-your-message{
+    width: 455px;
+    height: 203px;
+}
+.send-message{
+    border: 1px solid;
+    border-color: yellow;
+    background-color:#fed136;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-left: 550px;
+}
+.footer{
+    width: 1400px;
+    height: 90px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.footer-container p{
+    font-weight: 100;
+}
+
+.footer-socials{
+    display: flex;
+}
+.footer-twitter{
+    background: url(images/Twitter.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.footer-facebook{
+    background: url(images/Facebook.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.footer-pinterest{
+    background: url(images/Pinterest.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.footer-google{
+    background: url(images/Google+.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
 }
