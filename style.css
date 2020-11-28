@@ -200,3 +200,120 @@ margin-top: 20px;
     height: 300px;
     width: 290px; 
 }
+
+.vinyl-record-icon{
+    background: url(images/vinylrecord.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;    
+}
+
+.treehouse-template-icon{
+    background: url(images/treehousetemplate.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;    
+}  
+
+.burned-logo-icon{
+    background: url(images/burnedlogo.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;  
+}
+
+.about-us{
+    width:1400px;
+    height: 1650px;
+}
+
+
+.about-us-left{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-bottom: 50px;
+}
+
+
+.about-us-right{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 615px; 
+    padding-bottom: 50px;
+}
+.about-text-content-left{
+    text-align: right; 
+}
+.about-text-content-right{
+    font-weight: lighter;
+    width: 300px;
+    text-align: left; 
+    padding-top: 10px;
+}
+
+.about-us h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+.about-us p{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.about-us-date{
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 35px;
+}
+.about-us-event{
+    font-weight: bold;
+    font-size: 16px;
+}
+.about-us-text{
+    font-weight: lighter;
+    width: 300px;
+    padding-top: 10px;
+}
+.about-us-july2010-icon{
+background: url(images/july2010icon.png);
+width: 185px;
+height: 185px;
+border-radius: 20px;
+}
+
+.about-us-january2011-icon{
+background: url(images/january2011icon.png);
+width: 185px;
+height: 185px;
+border-radius: 20px;
+}
+
+.about-us-december2012-icon{
+    background: url(images/december2012icon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
+}
+
+.about-us-february2014-icon{
+    background: url(images/february2014icon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px; 
+}
+.our-story-continues-icon{
+    background: url(images/ourstorycontinuesicon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
+    margin-left: 620px;
+}
