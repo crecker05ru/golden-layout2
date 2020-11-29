@@ -149,7 +149,7 @@ margin-top: 20px;
     
 }
 
-.portfolio-content{
+.portfolio-item__content{
     width: 940px;
     display: flex;
     justify-content: space-between;   

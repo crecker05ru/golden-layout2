@@ -1,7 +1,7 @@
 let button = document.querySelector('.more-info');
 
 button.onclick = function () {
-    alert('More-info');
+    alert('More-info Maga');
 };
 
 let buttonmessage = document.querySelector('.send-message');
