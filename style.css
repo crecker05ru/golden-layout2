@@ -1,0 +1,529 @@
+body {
+    margin:0;
+}
+
+header {
+    
+    border-color: yellow;
+    height:700px;
+    width:1520px;
+    background-image : url(images/BackgroundImage.png);
+}
+
+.header-content {
+display: flex;
+justify-content: space-between;
+}
+
+nav {
+    
+    border-color: yellow;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    color:#ffffff;
+    padding: 50px;
+    padding-right: 230px;
+    
+    
+
+
+}
+nav a {
+padding: 20px;
+
+}
+.welcome {
+    text-align: center;
+    font-style: italic;
+    color:#fff;
+    vertical-align: bottom;
+}
+
+.nice {
+    text-align: center; 
+    font-size: 60px;
+    text-transform: uppercase;
+    color:#fff;
+   
+}
+
+.more-info {
+    border: 1px solid;
+    border-color: yellow;
+    background-color:#fed136;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 600px;
+    line-height: 25px;
+}
+
+.logo{
+    font-size: 15px;
+    color: #fed136;
+    font-style: italic;
+    padding-top: 50px;
+    padding-left: 225px;
+}
+
+.head {
+    margin-top: 250px;
+}
+
+.services {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.services-specs{
+    background-color: #ffffff;
+    width: 1400px;
+    height: 200px;
+
+    
+}
+.services-specs-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px 0px 200px;
+}
+
+.specs {
+    width: 325px;
+    height: 185px;
+}
+
+.specs-head{
+font-weight: bold;
+text-align: center;
+margin-top: 20px;
+}
+
+.specs-text{
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+}
+
+.icon-basket {
+    background: url(images/IconBasket.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 120px;
+}
+
+.icon-laptop {
+    background: url(images/IconLaptop.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 120px;
+}
+
+.icon-locked {
+    background: url(images/IconLocked.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin-left: 120px;
+}
+
+.portfolio{
+    background-color: #f7f7f7;
+    font-weight: bold;
+    width: 1400px;
+    height: 1200px;
+}
+
+.ourPortfolio {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-top: 100px;
+    
+}
+
+.portfolio-item__content{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;   
+    padding: 25px 170px 25px 170px;
+}
+
+.portfolio-box{
+    max-width:400px ;
+    max-height: 350px;
+    padding: 35px 35px 35px 35px;
+}
+
+.ebony-ivory-icon {
+    background: url(images/ebonyandivory.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;
+}
+.portfolio-head{
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
+}
+
+.portfolio-text {
+    font-weight: 100;
+    font-style: italic;
+    text-align: center;
+}
+
+.potfolio-text-box{
+    width: 290px;
+    height: 90px;
+    background: #fff;
+}
+
+.smart-stationary-icon{
+    background: url(images/smartstationary.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;
+}
+
+.clever-poster-icon{
+    background: url(images/cleverposter.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px; 
+}
+
+.vinyl-record-icon{
+    background: url(images/vinylrecord.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;    
+}
+
+.treehouse-template-icon{
+    background: url(images/treehousetemplate.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;    
+}  
+
+.burned-logo-icon{
+    background: url(images/burnedlogo.png);
+    background-size: cover;
+    height: 300px;
+    width: 290px;  
+}
+
+.about-us{
+    width:1400px;
+    height: 1650px;
+}
+
+
+.about-us-left{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    padding-bottom: 50px;
+}
+
+
+.about-us-right{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 615px; 
+    padding-bottom: 50px;
+}
+.about-text-content-left{
+    text-align: right; 
+}
+.about-text-content-right{
+    font-weight: lighter;
+    width: 300px;
+    text-align: left; 
+    padding-top: 10px;
+}
+
+.about-us h1{
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+.about-us p{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+.about-us-date{
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 35px;
+}
+.about-us-event{
+    font-weight: bold;
+    font-size: 16px;
+}
+.about-us-text{
+    font-weight: lighter;
+    width: 300px;
+    padding-top: 10px;
+}
+.about-us-july2010-icon{
+background: url(images/july2010icon.png);
+width: 185px;
+height: 185px;
+border-radius: 20px;
+}
+
+.about-us-january2011-icon{
+background: url(images/january2011icon.png);
+width: 185px;
+height: 185px;
+border-radius: 20px;
+}
+
+.about-us-december2012-icon{
+    background: url(images/december2012icon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
+}
+
+.about-us-february2014-icon{
+    background: url(images/february2014icon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px; 
+}
+.our-story-continues-icon{
+    background: url(images/ourstorycontinuesicon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
+    margin-left: 620px;
+}
+
+.our-amazing-team{
+    width: 1400px;
+    height: 820px;
+    background-color:#f9f9f9 ;
+}
+
+.our-amazing-team h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+
+
+.our-amazing-team p{
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+}
+.our-amazing-team-content{
+    padding: 60px 200px 60px 200px;
+}
+
+.our-amazing-team-avatar1{
+    background: url(images/avatar-icon.png);
+    width: 235px;
+    height: 235px;
+    border-radius: 20px; 
+    margin-left: 80px;
+}
+.teammate-name{
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    margin-left: 60px;
+}
+.team-post{
+   font-weight: lighter; 
+   font-style: italic;
+   text-align: center;
+   margin-left: 60px;
+}
+.our-amazing-team-content{
+    display: flex;
+    justify-content: space-between;
+}
+.our-amazing-team-content-box{
+    width: 400px;
+    height: 400px;
+    
+}
+
+.team-socials{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.team-twitter{
+    background: url(images/twitterlogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+
+}
+
+.team-facebook{
+    background: url(images/facebooklogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.team-pinterest{
+    background: url(images/pinterestlogo.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.cms{
+    width: 1400px;
+    height: 165px;
+}
+.cms-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px 50px 200px;
+}
+.envato{
+    width: 161px;
+    height: 30px;
+    background: url(images/Envato.png);
+}
+.wordpress{
+    width: 186px;
+    height: 42px;
+    background: url(images/WordPress.png);
+}
+.aetuts{
+    width: 131px;
+    height: 41px;
+    background: url(images/aatuts.png);
+}
+.microlancer{
+    width: 167px;
+    height: 42px;
+    background: url(images/Microlancer.png);
+}
+.contact-us{
+    width: 1400px;
+    height: 680px;
+    background-color: #222222;
+    background: url(images/MapImage.png);
+}
+
+.contact-us h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+}
+.contact-us p{
+    color: #ffffff;
+    font-weight: lighter;
+    text-align: center;
+    font-style: italic;
+}
+.contact-us-container{
+    width: 940px;
+    height: 200px;
+    padding: 70px 200px 30px 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.contact-us-input{
+    width: 450px;
+    height: 210px;
+}
+.contact-us-input input{
+    width: 455px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.contact-us-your-message{
+    width: 455px;
+    height: 203px;
+}
+.send-message{
+    border: 1px solid;
+    border-color: yellow;
+    background-color:#fed136;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-left: 550px;
+}
+.footer{
+    width: 1400px;
+    height: 90px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    margin-left: 200px;
+    padding-top: 20px;
+}
+.footer-container p{
+    font-weight: 100;
+}
+
+.footer-socials{
+    display: flex;
+}
+.footer-twitter{
+    background: url(images/Twitter.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}
+.footer-facebook{
+    background: url(images/Facebook.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.footer-pinterest{
+    background: url(images/Pinterest.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
+.footer-google{
+    background: url(images/Google+.png);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 10px;
+}
