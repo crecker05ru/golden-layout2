@@ -7,7 +7,7 @@ header {
     border-color: yellow;
     height:700px;
     width:1520px;
-    background-image : url(assets/images/BackgroundImage.png);
+    background-image : url(images/BackgroundImage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -117,7 +117,7 @@ nav a {
 }
 
 .icon-basket {
-    background: url(assets/images/IconBasket.png);
+    background: url(images/IconBasket.png);
     background-size: cover;
     height: 100px;
     width: 100px;
@@ -125,7 +125,7 @@ nav a {
 }
 
 .icon-laptop {
-    background: url(assets/images/IconLaptop.png);
+    background: url(images/IconLaptop.png);
     background-size: cover;
     height: 100px;
     width: 100px;
@@ -133,7 +133,7 @@ nav a {
 }
 
 .icon-locked {
-    background: url(assets/images/IconLocked.png);
+    background: url(images/IconLocked.png);
     background-size: cover;
     height: 100px;
     width: 100px;
@@ -180,7 +180,7 @@ nav a {
 }
 
 .ebony-ivory-icon {
-    background-image: url(assets/images/ebonyandivory.png);
+    background-image: url(images/ebonyandivory.png);
 }
 .portfolio-head{
     font-weight: bold;
@@ -201,23 +201,23 @@ nav a {
 }
 
 .smart-stationary-icon{
-    background-image: url(assets/images/smartstationary.png);
+    background-image: url(images/smartstationary.png);
 }
 
 .clever-poster-icon{
-    background-image: url(assets/images/cleverposter.png); 
+    background-image: url(images/cleverposter.png); 
 }
 
 .vinyl-record-icon{
-    background-image: url(assets/images/vinylrecord.png);  
+    background-image: url(images/vinylrecord.png);  
 }
 
 .treehouse-template-icon{
-    background-image: url(assets/images/treehousetemplate.png); 
+    background-image: url(images/treehousetemplate.png); 
 }  
 
 .burned-logo-icon{
-    background-image: url(assets/images/burnedlogo.png);  
+    background-image: url(images/burnedlogo.png);  
 }
 
 .about-us{
@@ -282,34 +282,34 @@ nav a {
     padding-top: 10px;
 }
 .about-us-july2010-icon{
-    background: url(assets/images/july2010icon.png);
+    background: url(images/july2010icon.png);
     width: 185px;
     height: 185px;
     border-radius: 20px;
 }
 
 .about-us-january2011-icon{
-    background: url(assets/images/january2011icon.png);
+    background: url(images/january2011icon.png);
     width: 185px;
     height: 185px;
     border-radius: 20px;
 }
 
 .about-us-december2012-icon{
-    background: url(assets/images/december2012icon.png);
+    background: url(images/december2012icon.png);
     width: 185px;
     height: 185px;
     border-radius: 20px;
 }
 
 .about-us-february2014-icon{
-    background: url(assets/images/february2014icon.png);
+    background: url(images/february2014icon.png);
     width: 185px;
     height: 185px;
     border-radius: 20px; 
 }
 .our-story-continues-icon{
-    background: url(assets/images/ourstorycontinuesicon.png);
+    background: url(images/ourstorycontinuesicon.png);
     width: 185px;
     height: 185px;
     border-radius: 20px;
@@ -339,7 +339,7 @@ nav a {
 }
 
 .our-amazing-team-avatar1{
-    background: url(assets/images/avatar-icon.png);
+    background: url(images/avatar-icon.png);
     width: 235px;
     height: 235px;
     border-radius: 20px; 
@@ -377,7 +377,7 @@ nav a {
 }
 
 .team-twitter{
-    background: url(assets/images/twitterlogo.png);
+    background: url(images/twitterlogo.png);
     width: 50px;
     height: 50px;
     background-size: cover;
@@ -385,14 +385,14 @@ nav a {
 }
 
 .team-facebook{
-    background: url(assets/images/facebooklogo.png);
+    background: url(images/facebooklogo.png);
     width: 50px;
     height: 50px;
     background-size: cover;
     margin-left: 10px;
 }
 .team-pinterest{
-    background: url(assets/images/pinterestlogo.png);
+    background: url(images/pinterestlogo.png);
     width: 50px;
     height: 50px;
     background-size: cover;
@@ -410,28 +410,28 @@ nav a {
 .envato{
     width: 161px;
     height: 30px;
-    background: url(assets/images/Envato.png);
+    background: url(images/Envato.png);
 }
 .wordpress{
     width: 186px;
     height: 42px;
-    background: url(assets/images/WordPress.png);
+    background: url(images/WordPress.png);
 }
 .aetuts{
     width: 131px;
     height: 41px;
-    background: url(assets/images/aatuts.png);
+    background: url(images/aatuts.png);
 }
 .microlancer{
     width: 167px;
     height: 42px;
-    background: url(assets/images/Microlancer.png);
+    background: url(images/Microlancer.png);
 }
 .contact-us{
     width: 1400px;
     height: 680px;
     background-color: #222222;
-    background: url(assets/images/MapImage.png);
+    background: url(images/MapImage.png);
 }
 
 .contact-us h1{
@@ -500,27 +500,27 @@ nav a {
     display: flex;
 }
 .footer-twitter{
-    background: url(assets/images/Twitter.png);
+    background: url(images/Twitter.png);
     width: 50px;
     height: 50px;
     background-size: cover;
 }
 .footer-facebook{
-    background: url(assets/images/Facebook.png);
+    background: url(images/Facebook.png);
     width: 50px;
     height: 50px;
     background-size: cover;
     margin-left: 10px;
 }
 .footer-pinterest{
-    background: url(assets/images/Pinterest.png);
+    background: url(images/Pinterest.png);
     width: 50px;
     height: 50px;
     background-size: cover;
     margin-left: 10px;
 }
 .footer-google{
-    background: url(assets/images/Google+.png);
+    background: url(images/Google+.png);
     width: 50px;
     height: 50px;
     background-size: cover;
