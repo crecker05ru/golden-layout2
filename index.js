@@ -1,10 +1,10 @@
-let button = document.querySelector('.more-info');
+let moreBtn = document.querySelector('.more-info');
 
-button.onclick = function () {
+moreBtn.onclick = function () {
     alert('More-info Maga');
 };
 
-let buttonmessage = document.querySelector('.send-message');
-buttonmessage.onclick = function(){
+let msgBtn = document.querySelector('.send-message');
+msgBtn.onclick = function(){
     alert ('Send message');
 };

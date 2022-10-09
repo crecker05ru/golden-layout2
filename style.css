@@ -8,11 +8,16 @@ header {
     height:700px;
     width:1520px;
     background-image : url(images/BackgroundImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 .header-content {
-display: flex;
-justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
@@ -30,7 +35,7 @@ nav {
 
 }
 nav a {
-padding: 20px;
+    padding: 20px;
 
 }
 .welcome {
@@ -58,7 +63,7 @@ padding: 20px;
     border-radius: 2px;
     color: white;
     text-transform: uppercase;
-    margin-left: 600px;
+    margin-left: 650px;
     line-height: 25px;
 }
 
@@ -79,6 +84,7 @@ padding: 20px;
     text-transform: uppercase;
     margin-top: 100px;
     margin-bottom: 100px;
+    margin-left: 30px;
 }
 
 .services-specs{
@@ -100,9 +106,9 @@ padding: 20px;
 }
 
 .specs-head{
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .specs-text{
@@ -148,6 +154,17 @@ margin-top: 20px;
     padding-top: 100px;
     
 }
+.portfolio-item__icon ,
+.ebony-ivory-icon ,
+.smart-stationary-icon,
+.clever-poster-icon,
+.vinyl-record-icon,
+.treehouse-template-icon,
+.burned-logo-icon{
+    background-size: cover;
+    height: 300px;
+    width: 290px;  
+}
 
 .portfolio-item__content{
     width: 940px;
@@ -163,10 +180,7 @@ margin-top: 20px;
 }
 
 .ebony-ivory-icon {
-    background: url(images/ebonyandivory.png);
-    background-size: cover;
-    height: 300px;
-    width: 290px;
+    background-image: url(images/ebonyandivory.png);
 }
 .portfolio-head{
     font-weight: bold;
@@ -174,7 +188,7 @@ margin-top: 20px;
     line-height: 30px;
 }
 
-.portfolio-text {
+.portfolio-item__text {
     font-weight: 100;
     font-style: italic;
     text-align: center;
@@ -187,38 +201,23 @@ margin-top: 20px;
 }
 
 .smart-stationary-icon{
-    background: url(images/smartstationary.png);
-    background-size: cover;
-    height: 300px;
-    width: 290px;
+    background-image: url(images/smartstationary.png);
 }
 
 .clever-poster-icon{
-    background: url(images/cleverposter.png);
-    background-size: cover;
-    height: 300px;
-    width: 290px; 
+    background-image: url(images/cleverposter.png); 
 }
 
 .vinyl-record-icon{
-    background: url(images/vinylrecord.png);
-    background-size: cover;
-    height: 300px;
-    width: 290px;    
+    background-image: url(images/vinylrecord.png);  
 }
 
 .treehouse-template-icon{
-    background: url(images/treehousetemplate.png);
-    background-size: cover;
-    height: 300px;
-    width: 290px;    
+    background-image: url(images/treehousetemplate.png); 
 }  
 
 .burned-logo-icon{
-    background: url(images/burnedlogo.png);
-    background-size: cover;
-    height: 300px;
-    width: 290px;  
+    background-image: url(images/burnedlogo.png);  
 }
 
 .about-us{
@@ -283,17 +282,17 @@ margin-top: 20px;
     padding-top: 10px;
 }
 .about-us-july2010-icon{
-background: url(images/july2010icon.png);
-width: 185px;
-height: 185px;
-border-radius: 20px;
+    background: url(images/july2010icon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
 }
 
 .about-us-january2011-icon{
-background: url(images/january2011icon.png);
-width: 185px;
-height: 185px;
-border-radius: 20px;
+    background: url(images/january2011icon.png);
+    width: 185px;
+    height: 185px;
+    border-radius: 20px;
 }
 
 .about-us-december2012-icon{
@@ -353,10 +352,10 @@ border-radius: 20px;
     margin-left: 60px;
 }
 .team-post{
-   font-weight: lighter; 
-   font-style: italic;
-   text-align: center;
-   margin-left: 60px;
+    font-weight: lighter; 
+    font-style: italic;
+    text-align: center;
+    margin-left: 60px;
 }
 .our-amazing-team-content{
     display: flex;
